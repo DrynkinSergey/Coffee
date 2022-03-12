@@ -1,16 +1,17 @@
+
 import Header from "../header/header";
-import bg from '../../img/Main bg.jpg'
+import About from "../about/about";
+import OurBest from "../our-best/ourBest";
+import Footer from "../footer/footer";
 
 function App() {
   return (
-   <div>
-       <div className='firstScreen'>
-           <img src={bg} alt=""/>
-       </div>
-       <div className=' container'>
-           <Header/>
-
-   </div></div>
+   <>
+    <Header/>
+    <About/>
+       <OurBest/>
+       <Footer/>
+   </>
   );
 }
 

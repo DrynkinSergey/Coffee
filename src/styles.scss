@@ -1,7 +1,11 @@
-$text-color: white;
+$text-white: white;
+$text-black: black;
 * {
   margin: 0;
   padding: 0;
+}
+section{
+  padding: 80px 0 100px;
 }
 
 body {
@@ -14,7 +18,7 @@ body {
     position: relative;
     list-style: none;
     display: flex;
-    color: $text-color;
+    color: $text-white;
 
     li {
       margin-right: 40px;
@@ -30,16 +34,105 @@ body {
   }
 }
 
-.firstScreen {
-  img {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-  }
-
-}
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+.bgHeader{
+  background-image: url("./img/Main bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px 0 290px 0;
+
+}
+.header{
+  color: $text-white;
+  h1{
+    padding-top: 180px;
+    width: 670px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+   margin: 0 auto;
+  }
+  h2{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+  }
+  button{
+    width: 120px;
+    background-color: transparent;
+    color: $text-white;
+    border-radius: 4px;
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 10px 5px;
+  }
+}
+.line{
+  margin-top: 20px;
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+//About
+
+.aboutUs{
+  text-align: center;
+  p{
+    margin: 0 auto;
+    width: 590px;
+    padding-bottom: 20px;
+    line-height: 20px;
+  }
+}
+
+.ourBest{
+  text-align: center;
+  background-image: url("./img/bgOurBest.jpg");
+  background-size: 100%;
+  &__card{
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    margin-top: 40px;
+    width: 220px;
+    padding: 20px 0;
+    img{
+    }
+    .price{
+      float: right;
+      padding: 10px;
+    }
+  }
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.p-160{
+  padding: 0 160px;
+}
+
+footer{
+  padding: 80px 0;
+  position: relative;
+  ul{
+    position: absolute;
+    left: 33%;
+    top: 5%;
+    color:black;
+  }
+  .line{
+  .svg{
+    fill: black;
+  }
+  }
 }
