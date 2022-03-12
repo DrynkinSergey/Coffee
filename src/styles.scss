@@ -1,0 +1,45 @@
+$text-color: white;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  font-family: 'Merienda', cursive;
+
+  ul {
+    padding-top: 30px;
+
+    position: relative;
+    list-style: none;
+    display: flex;
+    color: $text-color;
+
+    li {
+      margin-right: 40px;
+
+      img {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: -28px;
+        top: 8px;
+      }
+    }
+  }
+}
+
+.firstScreen {
+  img {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+  }
+
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
