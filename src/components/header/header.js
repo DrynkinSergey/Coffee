@@ -2,22 +2,25 @@ import React from 'react';
 import HeaderLinks from "../headerLinks/headerLinks";
 import CoffeeSvg from "../coffeeSvg/coffeeSvg";
 
-const Header = () => {
-        return (
-            <div className='bgHeader'>
-                <div className='header container'>
-                    <CoffeeSvg id='logo' color='white'/>
-                    <HeaderLinks/>
-                    <h1>Everything You Love About Coffee</h1>
-                    <CoffeeSvg id='svg' color='white'/>
+const Header = ({data}) => {
+    return (
+        <header className={data.bgClass}>
+            <div className='header container'>
 
-                    <h2>We makes every day full of energy and taste</h2>
-                    <h2>Want to try our beans?</h2>
-                    <button>
-                        More
-                    </button>
-                </div>
-            </div>)
-    };
+                <CoffeeSvg id='logo' color='white'/>
+                <HeaderLinks/>
+                <h1 >{data.headerTitle}</h1>
+                {data.haveCoffeeLine ? <CoffeeSvg id='svg' color='white'/> : null}
+
+                {data.firstSubtitle ? <h2>{data.firstSubtitle}</h2> : null
+                }
+                {data.secondSubtitle ? <h2>Want to try our beans?</h2> : null
+                }
+                {data.haveBtn ? <button>
+                    More
+                </button> : null}
+            </div>
+        </header>)
+};
 
 export default Header;
