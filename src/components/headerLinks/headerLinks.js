@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../../img/coffee-beans.png'
-const HeaderLinks = (props) => {
+
+const HeaderLinks = () => {
     return (
             <ul>
-                <li><img src={logo} alt=""/>Coffee house</li>
+                <li>Coffee house</li>
                 <li>Our coffee</li>
                 <li>For your pleasure</li>
             </ul>

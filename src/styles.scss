@@ -38,6 +38,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .bgHeader{
   background-image: url("./img/Main bg.jpg");
@@ -46,8 +47,19 @@ body {
   padding: 20px 0 290px 0;
 
 }
+.coffeeLine{
+  display: block;
+  margin: 0 auto;
+}
 .header{
+  position: relative;
   color: $text-white;
+  .logo{
+    position: absolute;
+    left: -13px;
+    top:8px;
+  }
+
   h1{
     padding-top: 180px;
     width: 670px;
@@ -75,17 +87,12 @@ body {
     padding: 10px 5px;
   }
 }
-.line{
-  margin-top: 20px;
-  img{
-    display: block;
-    margin: 0 auto;
-  }
-}
+
 
 //About
 
 .aboutUs{
+  padding: 80px 0;
   text-align: center;
   p{
     margin: 0 auto;
@@ -122,17 +129,12 @@ body {
 }
 
 footer{
-  padding: 80px 0;
-  position: relative;
+  padding: 40px 0 !important;
   ul{
-    position: absolute;
-    left: 33%;
-    top: 5%;
+    display: flex;
+    justify-content: center;
     color:black;
+    margin-bottom: 30px;
   }
-  .line{
-  .svg{
-    fill: black;
-  }
-  }
+
 }

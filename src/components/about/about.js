@@ -1,11 +1,12 @@
 import React from 'react';
-import Line from "../line/line";
 
-const About = (props) => {
+import CoffeeSvg from "../coffeeSvg/coffeeSvg";
+
+const About = () => {
         return (
             <section className='container aboutUs'>
                 <h1>About Us</h1>
-                <Line/>
+                <CoffeeSvg id='svg' color='black'/>
                 <p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
                     Afraid at highly months do things on at. Situation recommend objection do intention
                     so questions. As greatly removed calling pleased improve an. Last ask him cold feel

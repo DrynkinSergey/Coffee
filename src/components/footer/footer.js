@@ -1,12 +1,12 @@
 import React from 'react';
 import HeaderLinks from "../headerLinks/headerLinks";
-import Line from "../line/line";
+import CoffeeSvg from "../coffeeSvg/coffeeSvg";
 
-const Footer = (props) => {
+const Footer = () => {
     return(
         <footer className='container'>
             <HeaderLinks/>
-            <Line/>
+            <CoffeeSvg id='svg' color='black'/>
         </footer>
     )
     }
