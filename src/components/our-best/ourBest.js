@@ -13,10 +13,10 @@ const Card = () => {
 
 const OurBest = (props) => {
     return (
-        <section className=' ourBest'>
+        <section className='ourBest'>
             <div className='container'>
                 <h2>Our best</h2>
-                <div className='d-flex p-160'>
+                <div className='d-flex p-160 cards'>
                     <div className='ourBest__card'><Card/></div>
                     <div className='ourBest__card'><Card/></div>
                     <div className='ourBest__card'><Card/></div>

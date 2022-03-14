@@ -4,10 +4,10 @@ import Header from "../header/header";
 import '../../styles.scss'
 import PageAbout from "../PageAbout/PageAbout";
 import CoffeeItems from "../coffeeItems/coffeeItems";
-import Filter from "../filter/filter";
-const CoffeePage = (props) => {
+
+const YouPleasurePage = (props) => {
     const headerData = {
-        headerTitle:'Our Coffee',
+        headerTitle:'For your pleasure',
         firstSubtitle:null,
         secondSubtitle:null,
         haveBtn:false,
@@ -19,11 +19,10 @@ const CoffeePage = (props) => {
             <Header data={headerData} />
             <PageAbout/>
             <hr/>
-            <Filter/>
             <CoffeeItems data={props.data}/>
             <Footer/>
         </div>
     )
-    } ;
+} ;
 
-export default CoffeePage;
+export default YouPleasurePage;

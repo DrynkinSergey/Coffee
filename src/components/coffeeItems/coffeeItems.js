@@ -1,26 +1,19 @@
 import React from 'react';
 import CoffeeSingleItem from "../coffeeSingleItem/coffeeSingleItem";
 
-const CoffeeItems = (props) => (
-    <div className='Items'>
-    <div className='d-flex filter'>
-       <div><span>Lookiing for</span><input placeholder='start typing here...' type="text"/></div>
-        <div className="btnGroup">
-            <span>Or filter</span>
-            <button>Brazil</button>
-            <button>Kenya</button>
-            <button>Columbia</button>
+const CoffeeItems = (props) => {
+    const {data} = props;
+    const coffeeItems = data.map(({title,country,id,price}) => {
+       return <CoffeeSingleItem key={id} title={title} country = {country} price={price} id={id}/>
+    })
+    return (
+        <div className='Items'>
+            <div className='d-flex items filter'>
+                {coffeeItems}
+            </div>
         </div>
-    </div>
-        <div className='d-flex items filter'>
-            <CoffeeSingleItem/>
-            <CoffeeSingleItem/>
-            <CoffeeSingleItem/>
-            <CoffeeSingleItem/>
-            <CoffeeSingleItem/>
-            <CoffeeSingleItem/>
-        </div>
-    </div>
-);
+    );
+}
+
 
 export default CoffeeItems;

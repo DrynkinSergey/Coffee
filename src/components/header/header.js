@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderLinks from "../headerLinks/headerLinks";
 import CoffeeSvg from "../coffeeSvg/coffeeSvg";
+import {NavLink} from "react-router-dom";
 
 const Header = ({data}) => {
     return (
@@ -16,9 +17,9 @@ const Header = ({data}) => {
                 }
                 {data.secondSubtitle ? <h2>Want to try our beans?</h2> : null
                 }
-                {data.haveBtn ? <button>
+                {data.haveBtn ? <NavLink className='btn' to='/coffee'>
                     More
-                </button> : null}
+                </NavLink> : null}
             </div>
         </header>)
 };
