@@ -29,7 +29,7 @@ const AboutCoffeeItem = (props) => {
                     <div className='countryItem'>Country: {item.country}</div>
                     <div className='descriptionItem'>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div className='priceItem'>Price: {item.price}.99$</div>
-                    <NavLink className='btn back' to='/coffee'>Back</NavLink>
+                    <NavLink className='btn back' to='/ourCoffee'>Back</NavLink>
 
                 </div>
 
