@@ -3,7 +3,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import img from "../../img/coffeeImg.png";
 import CoffeeSvg from "../coffeeSvg/coffeeSvg";
-import {Route, useParams} from "react-router-dom";
+import {NavLink, useParams} from "react-router-dom";
 
 const AboutCoffeeItem = (props) => {
     const params = useParams();
@@ -29,8 +29,12 @@ const AboutCoffeeItem = (props) => {
                     <div className='countryItem'>Country: {item.country}</div>
                     <div className='descriptionItem'>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div className='priceItem'>Price: {item.price}.99$</div>
+                    <NavLink className='btn back' to='/coffee'>Back</NavLink>
+
                 </div>
+
             </div>
+
             <Footer/>
         </div>
     );

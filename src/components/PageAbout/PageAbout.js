@@ -1,13 +1,13 @@
 import React from 'react';
-import img from '../../img/coffeeImg.png'
+
 import CoffeeSvg from "../coffeeSvg/coffeeSvg";
 
 const PageAbout = (props) => {
         return (
             <div className='container d-flex pageAbout'>
-                <img src={img} alt=""/>
+                <img src={props.img.src} alt=""/>
                 <div className='content'>
-                    <h1 className="title">About our beans</h1>
+                    <h1 className="title">{props.aboutTitle}</h1>
                     <CoffeeSvg id='svg' color='black'/>
                     <p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.</p>
                     <p>

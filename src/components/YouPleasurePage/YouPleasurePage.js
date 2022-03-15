@@ -14,10 +14,11 @@ const YouPleasurePage = (props) => {
         haveCoffeeLine:false,
         bgClass:'coffeeBg'
     }
+
     return(
         <div className='OurCoffee'>
             <Header data={headerData} />
-            <PageAbout/>
+            <PageAbout aboutTitle='About our goods' img={props.img[0]}/>
             <hr/>
             <CoffeeItems data={props.data}/>
             <Footer/>
