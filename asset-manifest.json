@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Coffee/static/css/main.d5245ddc.css",
-    "main.js": "/Coffee/static/js/main.7675fda7.js",
-    "static/media/bgOurBest.jpg": "/Coffee/static/media/bgOurBest.e3f5093ea8367ad771ef.jpg",
-    "static/media/Main bg.jpg": "/Coffee/static/media/Main bg.ad9c54d6db833396a159.jpg",
-    "static/media/coffeeBg.jpg": "/Coffee/static/media/coffeeBg.e8094fc787f35d4856eb.jpg",
-    "static/media/coffeeImg.png": "/Coffee/static/media/coffeeImg.957a3dfb1d9579487476.png",
-    "static/media/yourPleasureImg.png": "/Coffee/static/media/yourPleasureImg.5e617ab40eb6bbdd3954.png",
-    "static/media/itemImg.png": "/Coffee/static/media/itemImg.abb45c1ba257a5364ef1.png",
-    "static/media/1.png": "/Coffee/static/media/1.25d5ad4a54bdd9afbde4.png",
-    "index.html": "/Coffee/index.html",
-    "main.d5245ddc.css.map": "/Coffee/static/css/main.d5245ddc.css.map",
-    "main.7675fda7.js.map": "/Coffee/static/js/main.7675fda7.js.map"
+    "main.css": "/coffee/static/css/main.85b39faf.css",
+    "main.js": "/coffee/static/js/main.c7bbfb58.js",
+    "static/media/bgOurBest.jpg": "/coffee/static/media/bgOurBest.e3f5093ea8367ad771ef.jpg",
+    "static/media/Main bg.jpg": "/coffee/static/media/Main bg.ad9c54d6db833396a159.jpg",
+    "static/media/coffeeBg.jpg": "/coffee/static/media/coffeeBg.e8094fc787f35d4856eb.jpg",
+    "static/media/coffeeImg.png": "/coffee/static/media/coffeeImg.957a3dfb1d9579487476.png",
+    "static/media/yourPleasureImg.png": "/coffee/static/media/yourPleasureImg.5e617ab40eb6bbdd3954.png",
+    "static/media/itemImg.png": "/coffee/static/media/itemImg.abb45c1ba257a5364ef1.png",
+    "static/media/1.png": "/coffee/static/media/1.25d5ad4a54bdd9afbde4.png",
+    "index.html": "/coffee/index.html",
+    "main.85b39faf.css.map": "/coffee/static/css/main.85b39faf.css.map",
+    "main.c7bbfb58.js.map": "/coffee/static/js/main.c7bbfb58.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5245ddc.css",
-    "static/js/main.7675fda7.js"
+    "static/css/main.85b39faf.css",
+    "static/js/main.c7bbfb58.js"
   ]
 }
