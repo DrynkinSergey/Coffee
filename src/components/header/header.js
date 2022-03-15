@@ -17,7 +17,7 @@ const Header = ({data}) => {
                 }
                 {data.secondSubtitle ? <h2>Want to try our beans?</h2> : null
                 }
-                {data.haveBtn ? <NavLink className='btn' to='/coffee'>
+                {data.haveBtn ? <NavLink className='btn' to='/Coffee/ourCoffee'>
                     More
                 </NavLink> : null}
             </div>

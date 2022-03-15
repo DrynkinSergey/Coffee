@@ -5,7 +5,7 @@ const CoffeeSingleItem = (props) => {
     const {title,country, price, id} = props;
     return (
         <Link  to={{
-            pathname: `/coffeeItem/${id}/${title}`,
+            pathname: `/Coffee/ourCoffee/${id}/${title}`,
         }}  className='item'>
             <img src={itemImg} alt=""/>
             <span className='title'>{title}</span>

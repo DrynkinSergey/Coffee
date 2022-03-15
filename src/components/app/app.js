@@ -74,7 +74,7 @@ class App extends Component {
                 <Routes>
                     <Route exact path="Coffee/ourCoffee" element={<CoffeePage img={aboutIImg} data={visibleData} onSearch={this.onChangeSearch} onFilter={this.onFilter}/>}/>
                     <Route exact path="Coffee/youPleasure" element={<YouPleasurePage img={aboutIImg} data={visibleData}/>}/>
-                    <Route exact path="Coffee/coffeeItem/:id/:title" element={<AboutCoffeeItem data={visibleData}/>}/>
+                    <Route exact path="Coffee/ourCoffee/:id/:title" element={<AboutCoffeeItem data={visibleData}/>}/>
                     <Route exact path="Coffee/" element={<MainPage/>}/>
                 </Routes>
 
